@@ -599,3 +599,96 @@
 .cstm-section{
 	text-align: center !important;
 }
+
+
+/* contact us section */
+
+.con-us-top h1{
+	font-size: 36px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+}
+.con-us-top p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: grey;
+	text-align: center;
+}
+.con-us-top .hr{
+	background: #ff9b51;
+    height: 2px;
+    width: 100px;
+    margin: 25px auto;
+    margin-bottom: 35px;
+}
+.con-sec-left input{
+	display: block;
+    border: none;
+    outline: none;
+    margin: 35px 0px;
+    border-bottom: 1px solid grey;
+    width: 88%;
+}
+.con-sec-rgt input{
+	display: block;
+    border: none;
+    outline: none;
+    margin: 35px 0px;
+    border-bottom: 1px solid grey;
+    width: 88%;
+    padding-bottom: 122px;
+}
+.con-us{
+	width: 1140px;
+	margin: auto auto;
+}
+.con-btm{
+	text-align: center;
+}
+.con-btm button{
+	background-color: #ff9b51;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.con-btm button:hover{   
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+/* footer section */
+
+.social-footer{
+	text-align: center;
+	background-color: black;
+}
+.social-media-foot i{
+	font-size: 30px;
+    color: #a4a5a8;
+    padding: 20px 25px;
+    transition: 0.5s;
+}
+.social-media-foot i:hover{
+    color: blue;
+    padding: 20px 25px;
+    transform: scale(1.2);
+    transition: 0.5s;
+    font-size: 30px;
+}
+.social-media-foot p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: grey;
+}
