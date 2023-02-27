@@ -44,9 +44,9 @@
     font-size: 36px;
 }
 
-.ban-content .Details{
+.hr-white{
 	height: 2px;
-	width: 72px;
+	width: 100px;
 	background-color: white;
 }
 
@@ -66,7 +66,7 @@
     transition: 0.5s;
 }
 
-.ban-content .button:hover{
+.button:hover{
 	color: white;
 	border: 1px solid red;
 	background-color: red;
@@ -560,4 +560,42 @@
 	font-size: 14px;
 	font-style: italic;
 	color: grey;
+}
+
+/* custom section */
+
+
+
+
+.cstm{
+	margin-top: 100px;
+	width: 100%;
+	background: url(../images/custom.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.cstm-section h1{
+	font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+    color: white;
+}
+.cstm-section .box6{
+	background-color: white;;
+    height: 2px;
+    width: 100px;
+    margin: 25px auto;
+}
+.cstm-section p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: grey;
+	color: white;
+}
+
+
+.cstm-section{
+	text-align: center !important;
 }
